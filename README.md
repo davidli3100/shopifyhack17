@@ -1,2 +1,2 @@
-# shopifyhack17
-*The Undecided Project*
+# Homify
+**A Google Home skill for Shopify**
