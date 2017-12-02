@@ -1,9 +1,10 @@
 var apiai = require('apiai');
+const uuidv4 = require('uuid/v4');
 
 var app = apiai("4a43ab478561429481e7decad17f1875");
 
 var request = app.textRequest('Hi', {
-    sessionId: '<unique session id>'
+    sessionId: uuidv4();
 });
 
 request.on('response', function(response) {
